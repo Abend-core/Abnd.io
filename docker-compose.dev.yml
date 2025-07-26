@@ -23,7 +23,7 @@ services:
         stop_grace_period: 1s
 
     server:
-        image: node:18
+        image: node:24-alpine
         container_name: Abend-server
         ports:
             - "5000:5000"
